@@ -4,7 +4,11 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "sml58.dtsi"
+#include "lily58.dtsi"
+
+&default_transform {
+    col-offset = <6>;
+};
 
 &kscan0 {
     col-gpios
@@ -15,8 +19,4 @@
         , <&pro_micro 6 GPIO_ACTIVE_HIGH>
         , <&pro_micro 5 GPIO_ACTIVE_HIGH>
         ;
-};
-
-&left_encoder {
-    status = "okay";
 };

@@ -1,8 +1,0 @@
-# Copyright (c) 2020 Pete Johanson
-# SPDX-License-Identifier: MIT
-
-config SHIELD_sml58_LEFT
-    def_bool $(shields_list_contains,sml58_left)
-
-config SHIELD_sml58_RIGHT
-    def_bool $(shields_list_contains,sml58_right)
